@@ -1,0 +1,26 @@
+@import "reset.css";
+
+.background img {
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: auto;
+  position: fixed;
+  z-index: -1;
+}
+
+.weather_column {
+  display: flex;
+  justify-content: end;
+  margin: 18px 30px;
+}
+
+.weather_column span {
+  color: white;
+  font-style: italic;
+  font-size: 12px;
+}
