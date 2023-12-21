@@ -1,6 +1,6 @@
 const weather = document.querySelector(".weather_column span");
 
-const API_KEY = "faf197b5c9a7d952037774d812b44f5d";
+const API_KEY = config.apikey;
 
 async function onSuccess(pos) {
   const lat = pos.coords.latitude;
