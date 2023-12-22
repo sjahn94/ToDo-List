@@ -10,12 +10,38 @@
     <div class="background">
       <img src="img/01.jpg" />
     </div>
+    <header class="weather">
+      <div class="weather_column">
+        <span></span>
+      </div>
+    </header>
 
-    <div class="weather_column">
-      <span></span>
-    </div>
+    <main class="todo">
+      <div class="todo_time_column">
+        <span>12:43</span>
+      </div>
+      <div class="todo_name_column">
+        <form>
+          <input type="text" placeholder="Type your name here" />
+        </form>
+        <span></span>
+      </div>
+      <div class="todo_list_column">
+        <form>
+          <input type="text" placeholder="Write a To Do here" />
+        </form>
+        <div class="todo_list">
+          <!--<span class="todo_list_del">❌</span>
+          <span class="todo_list_text">asd</span>
+          -->
+        </div>
+      </div>
+    </main>
   </body>
   <script src="js/background.js"></script>
-  <script src="js/weather.js"></script>
   <script src="apikey.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/greeting.js"></script>
+  <script src="js/todo.js"></script>
 </html>
